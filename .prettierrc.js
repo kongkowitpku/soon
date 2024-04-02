@@ -14,7 +14,6 @@ module.exports = {
     "^(react|react-.*|react/.*)$",
     "^(next|next-.*|next/.*)$",
     "<THIRD_PARTY_MODULES>",
-    "^@/(config|public|src)/(.*)$",
     "^[.]",
     "^(?!.*[.]css$)[./].*$",
     ".css$"

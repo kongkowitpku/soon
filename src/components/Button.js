@@ -8,5 +8,5 @@ export default function Button({ text, outline = false, onClick }) {
     >
       {text}
     </div>
-  );
+  )
 }

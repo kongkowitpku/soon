@@ -1,8 +1,9 @@
-import "tailwindcss/tailwind.css";
-import "./style.css";
+import "./style.css"
+
+import "tailwindcss/tailwind.css"
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />
 }
 
-export default MyApp;
+export default MyApp

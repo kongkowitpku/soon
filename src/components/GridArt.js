@@ -41,5 +41,5 @@ export default function GridArt() {
         style={{ width: "10vw", height: "100vh" }}
       ></div>
     </div>
-  );
+  )
 }

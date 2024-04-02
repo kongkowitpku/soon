@@ -1,4 +1,5 @@
-import Button from "./Button";
+import Button from "./Button"
+
 export default function TopBar() {
   return (
     <div className="top-bar-grid z-20">
@@ -9,5 +10,5 @@ export default function TopBar() {
         {/* <Button text="Submit Your Questions" /> */}
       </div>
     </div>
-  );
+  )
 }

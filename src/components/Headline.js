@@ -1,4 +1,5 @@
-import Button from "./Button";
+import Button from "./Button"
+
 export default function HeadLine() {
   return (
     <div className="overflow-hidden zerome absolute flex items-center justify-center  head-line center-child">
@@ -18,5 +19,5 @@ export default function HeadLine() {
         />
       </div>
     </div>
-  );
+  )
 }

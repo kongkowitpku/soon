@@ -12,7 +12,7 @@ function Dot() {
         fill="#00BB62"
       />
     </svg>
-  );
+  )
 }
 function Cloud() {
   return (
@@ -41,7 +41,7 @@ function Cloud() {
         fill="#00BB62"
       />
     </svg>
-  );
+  )
 }
 
 function SmallCloud() {
@@ -58,7 +58,7 @@ function SmallCloud() {
         fill="#00BB62"
       />
     </svg>
-  );
+  )
 }
 
 function ZigZag() {
@@ -75,7 +75,7 @@ function ZigZag() {
         fill="#00BB62"
       />
     </svg>
-  );
+  )
 }
 
 export default function ClipArt() {
@@ -125,5 +125,5 @@ export default function ClipArt() {
         <Cloud />
       </div>
     </div>
-  );
+  )
 }

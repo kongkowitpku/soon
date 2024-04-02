@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start"
+    "start": "next start",
+    "format:check": "prettier . --check --cache --cache-location=\".cache/prettiercache\"",
+    "format:cmd": "prettier --check --cache --cache-location=\".cache/prettiercache\"",
+    "format:fix": "prettier . --write --cache --cache-location=\".cache/prettiercache\""
   },
   "dependencies": {
     "next": "^12.3.0",

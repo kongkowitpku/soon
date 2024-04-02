@@ -6,5 +6,5 @@ export default function RoundArt() {
         style={{ width: "100vw", height: "100vw" }}
       />
     </div>
-  );
+  )
 }

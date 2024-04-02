@@ -33,5 +33,5 @@ export default function Footer() {
         Kongkow IT Pekanbaru - © 2022 All Rights Reserved.
       </div>
     </div>
-  );
+  )
 }

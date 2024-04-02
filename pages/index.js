@@ -1,10 +1,11 @@
-import Head from "next/head";
-import TopBar from "../src/components/TopBar";
-import HeadLine from "../src/components/Headline";
-import Footer from "../src/components/Footer";
-import RoundArt from "../src/components/RoundArt";
-import GridArt from "../src/components/GridArt";
-import ClipArt from "../src/components/ClipArt";
+import Head from "next/head"
+
+import ClipArt from "../src/components/ClipArt"
+import Footer from "../src/components/Footer"
+import GridArt from "../src/components/GridArt"
+import HeadLine from "../src/components/Headline"
+import RoundArt from "../src/components/RoundArt"
+import TopBar from "../src/components/TopBar"
 
 export default function Home() {
   return (
@@ -96,5 +97,5 @@ export default function Home() {
       <GridArt />
       <ClipArt />
     </>
-  );
+  )
 }
