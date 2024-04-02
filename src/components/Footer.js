@@ -11,8 +11,8 @@ export default function Footer() {
         <div>STAY TUNED FOR MORE!</div>
       </div> */}
       <div className="footer-section-2 z-20 ">
-        <div onClick={() => window.open("https://blog.kongkowitpku.xyz")}>
-          BLOG
+        <div onClick={() => window.open("https://brand-assets.kongkowitpku.xyz")}>
+          BRAND
         </div>
         |
         <div
