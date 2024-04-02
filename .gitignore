@@ -1,0 +1,36 @@
+**/node_modules
+**/.DS_Store
+**/*.pem
+**/.env*.local
+**/.env
+**/.turbo
+**/.next
+**/.vercel
+**/.trunk
+**/.cache
+**/dist
+**/build
+**/out
+**/*.map
+**/sitemap-*.xml
+**/sitemap.xml
+**/sw.*
+**/workbox-*
+**/*.log*
+**/.*-error.log
+
+# Weekly Backup
+backup
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Dependencies
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
