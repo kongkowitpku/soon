@@ -1,31 +1,5 @@
 {
+  "$schema": "http://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "redirects": [
-    {
-      "source": "/telegram",
-      "destination": "https://t.me/kongkowITpekanbaru",
-      "permanent": false
-    },
-    {
-      "source": "/discord",
-      "destination": "https://discord.gg/CNpPdG5T5Y",
-      "permanent": false
-    },
-    {
-      "source": "/github",
-      "destination": "https://github.com/KongkowITPekanbaru"
-    },
-    {
-      "source": "/view-source",
-      "destination": "https://github.com/KongkowITPekanbaru/soon"
-    },
-    {
-      "source": "/stats",
-      "destination": "https://umami.kongkowitpku.xyz/share/pFkNP9SP/home.kongkow"
-    },
-    {
-      "source": "/mee6",
-      "destination": "https://mee6.xyz/leaderboard/690930402218606663"
-    }
-  ]
+  "installCommand": "./scripts/vercel-build.sh"
 }

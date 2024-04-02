@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "cross-env node scripts/postinstall.js",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "start": "next start",
-    "cid": "node cidv0"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^12.3.0",
@@ -15,9 +15,14 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "autoprefixer": "^10.4.8",
-    "multiformats": "^9.5.8",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.4",
+    "lefthook": "^1.6.4",
     "postcss": "^8.4.16",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.1.8"
   },
   "packageManager": "yarn@4.1.1"

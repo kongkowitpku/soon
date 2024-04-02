@@ -1,0 +1,29 @@
+# direnv
+.direnv
+
+# cache
+.cache
+
+# deps
+node_modules
+.pnp.*
+.yarn/*
+
+# vercel
+.vercel
+
+# next.js
+.next
+out
+
+# eslint
+.eslint-report.json
+
+# husky
+.husky
+
+# other
+sitemap-*.xml
+sitemap.xml
+sw.*
+workbox-*

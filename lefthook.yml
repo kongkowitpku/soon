@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      glob: "*.{css.js,cjs,mjs,ts,jsx,tsx,md,html,json,yml,yaml,graphql}"
+      run: |
+        yarn prettier --write --ignore-unknown {staged_files}
+        git add {staged_files}
+      skip:
+        - merge
+        - rebase
