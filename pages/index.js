@@ -88,14 +88,6 @@ export default function Home() {
           property="twitter:image"
           content="https://kongkowitpku.xyz/og.png"
         />
-        {/* ==== Third Party Scripts ==== */}
-        {/* Analytics */}
-        <script
-          async
-          defer
-          data-website-id="71314870-21fb-43c7-b4ae-2b402b6932c5"
-          src="https://umami.kongkowitpku.xyz/mojok.js"
-        ></script>
       </Head>
       <TopBar />
       <HeadLine />
